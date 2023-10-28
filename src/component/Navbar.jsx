@@ -15,7 +15,7 @@ function Navbar() {
        <NavLink to={'/'}>
         <div className='ml-5'>
 
-        <img src={logo} alt="logo"  className='w-[180px]'/>
+        <img src={logo} alt="logo"  className='w-[180px] '/>
         </div>
 
        </NavLink>

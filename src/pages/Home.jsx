@@ -9,6 +9,7 @@ function Home() {
 
     const API_URL = `https://fakestoreapi.com/products`;
 
+
     async function fetchData () {
         setLoading(true);
         try {
@@ -24,7 +25,8 @@ function Home() {
     }
 
     useEffect(() => {
-        fetchData();
+     fetchData();
+        
     },[])
 
   return (
